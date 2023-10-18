@@ -4,7 +4,8 @@
   "description": "Search Repo project using tailwind and vanilla javascript",
   "scripts": {
     "start": "npx tailwindcss -i styles.css -o ./src/styles.css",
-    "build": "npx tailwindcss build"
+    "build": "npx tailwindcss build",
+    "run-server": "http-server -c-1"
   },
   "dependencies": {
     "jest": "^29.7.0",
